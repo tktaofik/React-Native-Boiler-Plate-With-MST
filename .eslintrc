@@ -13,7 +13,8 @@
     "test": true,
     "it": true,
     "afterAll": true,
-    "describe": true
+    "describe": true,
+    "jasmine": true
   },
   "rules": {
     "brace-style":0,

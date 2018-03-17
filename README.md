@@ -1,7 +1,13 @@
 # React Native Boiler Plate Using Mobx State Tree
 Based on [create-react-native-app](https://github.com/react-community/create-react-native-app)
 
-## Getting Started
+## Content
+- React Navigation
+- Mobx State Tree 
+- eslint airbnb
+- eslint-watch
+- jest
+- React Native Debugger
 
 ### Installation
 -   Install home brew [Home brew](https://docs.brew.sh/Installation)
@@ -13,16 +19,16 @@ Based on [create-react-native-app](https://github.com/react-community/create-rea
 #### `npm start`
 Runs your app in development mode 
 
-#### `npm test`
+#### `npm run lint-watch`
+Runs eslint watch
 
+#### `npm test`
 Runs the [jest](https://github.com/facebook/jest) test runner on your tests.
 
 #### `npm run ios`
-
 Like `npm start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.
 
 #### `npm run android`
-
 Like `npm start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools (see [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html) for detailed setup).
 
 #### `npm run eject`
